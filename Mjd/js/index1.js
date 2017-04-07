@@ -1,7 +1,7 @@
 window.onload = function() {
         search();
         banner();
-        downTime();
+        // downTime();
     }
     // 顶部搜索
 var search = function() {
@@ -59,23 +59,37 @@ var banner = function() {
     var width = 10;
 
 
-
-    // 1.自动轮播 (无缝)
-
-    // 自动轮播
-    var index = 1;
-    var timer = setInterval(function() {
-        index++;
-        // 移动
-        var position = -index * width;
+    function setTransition() {
         // 过度效果
         imgBox.style.transition = "all 0.2s";
         imgBox.style.webkitTransition = "all 0.2s";
-        // 设置定位
-        imgBox.style.transform = "translateX(" + position + "%)";
-        imgBox.style.webkitTransform = "translateX(" + position + "%)";
+    }
 
-    }, 1000);
+    function removeTransition() {
+        //清除过度
+        imgBox.style.transition = "none";
+        imgBox.style.webkitTransition = "none";
+    }
+
+    var setPosition = function() {
+        // 设置定位
+        imgBox.style.transform = "translateX(" + -index * width + "%)";
+        imgBox.style.webkitTransform = "translateX(" + -index * width + "%)";
+    }
+
+    var timer1 = function() {
+            index++;
+            // 移动
+            // 过度效果
+            setTransition();
+            // 设置定位
+            setPosition();
+        }
+        // 1.自动轮播 (无缝)
+
+    // 自动轮播
+    var index = 1;
+    var timer = setInterval(timer1, 1000);
 
     //无缝
     // 监听到过度结束
@@ -84,26 +98,21 @@ var banner = function() {
         if (index >= 9) {
             index = 1;
             //瞬间移到第一张
-            var position = -index * width;
+
             //清除过度
-            imgBox.style.transition = "none";
-            imgBox.style.webkitTransition = "none";
+            removeTransition();
 
             //定位
-            imgBox.style.transform = "translateX(" + position + "%)";
-            imgBox.style.webkitTransform = "translateX(" + position + "%)";
+            setPosition();
 
         } else if (index <= 0) {
             index = 8;
             //瞬间移到第一张
-            var position = -index * width;
             //清除过度
-            imgBox.style.transition = "none";
-            imgBox.style.webkitTransition = "none";
+            removeTransition();
 
             //定位
-            imgBox.style.transform = "translateX(" + position + "%)";
-            imgBox.style.webkitTransform = "translateX(" + position + "%)";
+            setPosition();
         }
 
 
@@ -143,66 +152,46 @@ var banner = function() {
         var position = -index * width + distance;
         /*跟随手指来回定位 即时*/
         /*清除过渡*/
-        imgBox.style.transition = 'none'; /*代表没有任何过渡属性*/
-        imgBox.style.webkitTransition = 'none';
+        removeTransition();
         /*设置定位*/
         imgBox.style.transform = 'translateX(' + position + 'px)';
         imgBox.style.webkitTransform = 'translateX(' + position + 'px)';
+
     });
     // 4.当滑动不超过一定距离的时候 需要吸附回去
     imgBox.addEventListener("touchend", function(e) {
         // 判断移动的距离
         if (Math.abs(distance) < banner.offsetWidth / 3) {
             // 移动
-            var position = -index * width;
             // 过度效果
-            imgBox.style.transition = "all 0.2s";
-            imgBox.style.webkitTransition = "all 0.2s";
+            setTransition();
             // 设置定位
-            imgBox.style.transform = "translateX(" + position + "%)";
-            imgBox.style.webkitTransform = "translateX(" + position + "%)";
+            setPosition();
         } else {
             //判断滑动的方向 通过distance的正负
             if (distance > 0) {
                 // 向右滑  上一张
                 index--;
                 // 移动
-                var position = -index * width;
                 // 过度效果
-                imgBox.style.transition = "all 0.2s";
-                imgBox.style.webkitTransition = "all 0.2s";
+                setTransition();
                 // 设置定位
-                imgBox.style.transform = "translateX(" + position + "%)";
-                imgBox.style.webkitTransform = "translateX(" + position + "%)";
+                setPosition();
             } else {
                 // 向左滑  下一张
                 index++;
                 // 移动
                 var position = -index * width;
                 // 过度效果
-                imgBox.style.transition = "all 0.2s";
-                imgBox.style.webkitTransition = "all 0.2s";
+                setTransition();
                 // 设置定位
-                imgBox.style.transform = "translateX(" + position + "%)";
-                imgBox.style.webkitTransform = "translateX(" + position + "%)";
+                setPosition();
             }
         }
         // 恢复定时器
         clearInterval(timer);
-        timer = setInterval(function() {
-            index++;
-            // 移动
-            var position = -index * width;
-            // 过度效果
-            imgBox.style.transition = "all 0.2s";
-            imgBox.style.webkitTransition = "all 0.2s";
-            // 设置定位
-            imgBox.style.transform = "translateX(" + position + "%)";
-            imgBox.style.webkitTransform = "translateX(" + position + "%)";
-
-        }, 1000);
+        timer = setInterval(timer1, 1000);
     });
-
 
 };
 
@@ -210,36 +199,5 @@ var banner = function() {
 
 // 倒计时
 var downTime = function() {
-    //获取元素 
-    var skTime = document.querySelector(".sk_time");
-    var spans = skTime.querySelectorAll("span");
-
-    //倒计时时间  转换成秒
-    var time = 3*60*60;
-
-    //计时器 自动倒计时
-    var timer = setInterval(function(){
-        time--;
-
-        //显示  转化格式
-        var h = Math.floor(time/3600);
-        var m = Math.floor(time%3600/60);
-        var s = time%60;
-
-        spans[0].innerHTML = Math.floor(h/10);
-        spans[1].innerHTML = h%10;
-        spans[3].innerHTML = Math.floor(m/10);
-        spans[4].innerHTML = m%10;
-        spans[6].innerHTML = Math.floor(s/10);
-        spans[7].innerHTML = s%10;
-
-        // 计时器停止
-        if (time==0) {
-            clearInterval(timer);
-        }
-
-    },1000)
-
-
 
 };

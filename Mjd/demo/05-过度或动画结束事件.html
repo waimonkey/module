@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .checkbox {
+            width: 200px;
+            height: 200px;
+            background-color: #f40;
+            transition: all 2s;
+        }
+        .checkbox:hover {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+     <div class="checkbox"></div>
+     <script>
+         document.querySelector(".checkbox").addEventListener("webkitTransitionEnd",function(){
+            console.log("过度结束了");
+         })
+     </script>
+</body>
+</html>

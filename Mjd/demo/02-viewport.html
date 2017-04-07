@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin:0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            height: 1000px;
+            background-color: pink;
+        }
+    </style>
+    <!--
+标准的移动端开发的要求:
+1.不能出现横向的滚动条(网页的宽度或者说视口的宽度和浏览器的宽度一致)
+2.缩放的比例和pc端保持一致 (没有经过任何缩放)
+3.不允许用户自行缩放
+
+这三个需要求靠viewport视觉窗口实现
+
+问题:
+1.怎么设置 viewport?
+在html文档中head中设置meta标签 name属性为viewport
+    <meta name="view" content="">
+
+2.viewport有哪些属性
+    width:视口宽度 单位默认是px 有一个特殊的值 device-width
+    width=device-width
+    height:视口高度  单位默认是px
+    initial-scale: 默认初始缩放比例  标准比例 1:1
+    initial-scale = 1.0
+    user-scalable: 是否允许用户自行缩放
+    user-scalable = yes no /1 0  默认是可以缩放的
+    maximum-scale:最大允许用户的缩放比
+    minimun-scale:最小允许用户的缩放比
+
+    -->
+    <!--一个标准的移动端web页面开发设置 国际通用设置-->
+    <meta name="viewport" content="width=device-width,initial-scale = 1.0,user-scalable = no">
+    <!--快捷写法 meta:vp-->
+    <!--<meta name="viewport"-->
+          <!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+</head>
+<body>
+    <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores earum commodi, totam similique quam voluptatibus quae tenetur adipisci, officiis cumque nulla iure placeat illo, aperiam? Dolorum voluptas modi eos quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores earum commodi, totam similique quam voluptatibus quae tenetur adipisci, officiis cumque nulla iure placeat illo, aperiam? Dolorum voluptas modi eos quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores earum commodi, totam similique quam voluptatibus quae tenetur adipisci, officiis cumque nulla iure placeat illo, aperiam? Dolorum voluptas modi eos quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores earum commodi, totam similique quam voluptatibus quae tenetur adipisci, officiis cumque nulla iure placeat illo, aperiam? Dolorum voluptas modi eos quisquam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores earum commodi, totam similique quam voluptatibus quae tenetur adipisci, officiis cumque nulla iure placeat illo, aperiam? Dolorum voluptas modi eos quisquam.
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+ .outer {
+    zoom: 1;
+  }
+  /*==for IE6/7 Maxthon2==*/
+
+  .outer:after {
+    clear: both;
+    content: '.';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+
+  .head {
+    background-color: #fff;
+    height: 40px;
+    /*padding: 0 10px;*/
+    margin-bottom: 20px;
+  }
+
+  .middle {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    padding: 10px;
+    background-color: #fff;
+  }
+
+  div.el-date-editor.el-input {
+    width: 90px;
+  }
+
+  .now {
+    color: #7FCE95;
+    border-bottom: 1px solid #7FCE95;
+  }
+
+  .tas {
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    padding: 0 10px;
+  }
+
+  .middle ul {
+    padding: 0;
+  }
+
+  .middle li {
+
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+  }
+    .el-row {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .el-col {
+    border-radius: 4px;
+  }
+  .bg-purple-dark {
+    background: #99a9bf;
+  }
+  .bg-purple {
+    background: #fff;
+  }
+  .bg-purple-light {
+    background: #e5e9f2;
+  }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+  }
+  /*卡片*/
+  .text {
+    font-size: 14px;
+  }
+  tr {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+  }
+  .clearfix:before,
+  .clearfix:after {
+      display: table;
+      content: "";
+  }
+  .clearfix:after {
+      clear: both
+  }

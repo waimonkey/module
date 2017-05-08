@@ -1,0 +1,747 @@
+{
+  "staffs": [
+    {
+      "id": 1,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 2,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 3,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 4,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 5,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 6,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 7,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 8,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 9,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    },
+    {
+      "id": 10,
+      "name": "胡建",
+      "duty": "城防副指挥,实施城区防汛指挥调度",
+      "phone": 15735458795,
+      "tel": 86036519,
+      "email": "165215549745@163.com"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "1",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 2,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "1",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 3,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "1",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 4,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "1",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 5,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "1",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 6,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "2",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 7,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "2",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 8,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "2",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 9,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "2",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 10,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "2",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 11,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "3",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 12,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "3",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 13,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "3",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 14,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "3",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 15,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "4",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 16,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "4",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 17,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "4",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 18,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "5",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 19,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "5",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 20,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "5",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 21,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "6",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 22,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "6",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 23,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "6",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 24,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "6",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 25,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "7",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 26,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "7",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 27,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "7",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 28,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "8",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 29,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "8",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 30,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "9",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 31,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "9",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 32,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "9",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 33,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "10",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 34,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "10",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 35,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "10",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 36,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "10",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 37,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "11",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    },
+    {
+      "id": 38,
+      "paln": "城防副指挥,实施城区防汛指挥调度",
+      "planYear": "2017",
+      "planMonth": "11",
+      "planType": "片区营养计划",
+      "createdMan": "胡建",
+      "createdTime": "2017年2月17日",
+      "planStatus": "内部初审"
+    }
+  ],
+  "drains": [
+    {
+      "id": 1,
+      "unitName": "君悦广场二期改造",
+      "projectName": "君悦广场",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "全部",
+      "role": "花城被",
+      "sewage": "2014",
+      "number": "运营管理",
+      "file": ""
+    },
+    {
+      "id": 2,
+      "unitName": "升金湖大道新建工程",
+      "projectName": "升金湖大道",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "道路",
+      "projectStatue": "入网申请",
+      "role": "秀山",
+      "sewage": "2013",
+      "number": "施工建设",
+      "file": ""
+    },
+    {
+      "id": 3,
+      "unitName": "长江南路新建工程",
+      "projectName": "长江南路",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "道路",
+      "projectStatue": "入网申请",
+      "role": "",
+      "sewage": "2012",
+      "number": "规划设计",
+      "file": ""
+    },
+    {
+      "id": 4,
+      "unitName": "杏村小区改造",
+      "projectName": "杏村小区",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "管网验收",
+      "role": "润兴",
+      "sewage": "2013",
+      "number": "施工建设",
+      "file": ""
+    },
+    {
+      "id": 5,
+      "unitName": "南湖远小区改造",
+      "projectName": "观湖公园",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "水系",
+      "projectStatue": "全部",
+      "role": "",
+      "sewage": "201",
+      "number": "施工建设",
+      "file": ""
+    },
+    {
+      "id": 6,
+      "unitName": "清溪绿城小区新建工程",
+      "projectName": "清溪绿城",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "雨污水复数设施",
+      "projectStatue": "入网申请",
+      "role": "金港大道",
+      "sewage": "2012",
+      "number": "规划设计",
+      "file": ""
+    },
+    {
+      "id": 7,
+      "unitName": "三台山公园改造工程",
+      "projectName": "三台山公园",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "入网申请",
+      "role": "",
+      "sewage": "2013",
+      "number": "施工建设",
+      "file": ""
+    },
+    {
+      "id": 8,
+      "unitName": "白沙沟沟渠整治工程",
+      "projectName": "白沙沟",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "道路",
+      "projectStatue": "管网验收",
+      "role": "安港",
+      "sewage": "",
+      "number": "施工建设",
+      "file": ""
+    },
+    {
+      "id": 9,
+      "unitName": "天堂湖湿地整治工程",
+      "projectName": "天堂湖",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "道路",
+      "projectStatue": "全部",
+      "role": "经十",
+      "sewage": "2012",
+      "number": "规划设计",
+      "file": ""
+    },
+    {
+      "id": 10,
+      "unitName": "备用水源建设",
+      "projectName": "平添湖",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "入网申请",
+      "role": "丁卯路",
+      "sewage": "2011",
+      "number": "规划设计",
+      "file": ""
+    },
+    {
+      "id": 11,
+      "unitName": "天堂湖新区污水处理厂建设",
+      "projectName": "天堂湖",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "水系",
+      "projectStatue": "入网申请",
+      "role": "港中",
+      "sewage": "2011",
+      "number": "运营管理",
+      "file": ""
+    },
+    {
+      "id": 12,
+      "unitName": "啤酒厂小区改造",
+      "projectName": "啤酒厂小区",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "雨污水处理设施",
+      "projectStatue": "官网验收",
+      "role": "",
+      "sewage": "",
+      "number": "规划设计",
+      "file": ""
+    },
+    {
+      "id": 13,
+      "unitName": "镇江市第一人民医院新区分院",
+      "projectName": "",
+      "projectNum": "",
+      "aplicationgDate": "",
+      "address": "全部",
+      "projectStatue": "坡港",
+      "role": "",
+      "sewage": "",
+      "number": ""
+   ,
+   "file": "" },
+    {
+      "id": 14,
+      "unitName": "君悦广场二期改造",
+      "projectName": "",
+      "projectNum": "",
+      "aplicationgDate": "",
+      "address": "",
+      "projectStatue": "入网申请",
+      "role": "青山",
+      "sewage": "",
+      "number": ""
+   ,
+   "file": "" },
+    {
+      "id": 15,
+      "unitName": "君悦广场二期改造",
+      "projectName": "君悦广场",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "全部",
+      "role": "花城被",
+      "sewage": "2014",
+      "number": "运营管理",
+      "file": ""
+    },
+    {
+      "id": 16,
+      "unitName": "君悦广场二期改造",
+      "projectName": "君悦广场",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "全部",
+      "role": "花城被",
+      "sewage": "2014",
+      "number": "运营管理",
+      "file": ""
+    },
+    {
+      "id": 17,
+      "unitName": "君悦广场二期改造",
+      "projectName": "君悦广场",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "全部",
+      "role": "花城被",
+      "sewage": "2014",
+      "number": "运营管理",
+      "file": ""
+    },
+    {
+      "id": 18,
+      "unitName": "君悦广场二期改造",
+      "projectName": "君悦广场",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "全部",
+      "role": "花城被",
+      "sewage": "2014",
+      "number": "运营管理",
+      "file": ""
+    },
+    {
+      "id": 19,
+      "unitName": "君悦广场二期改造",
+      "projectName": "君悦广场",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "全部",
+      "role": "花城被",
+      "sewage": "2014",
+      "number": "运营管理",
+      "file": ""
+    },
+    {
+      "id": 20,
+      "unitName": "君悦广场二期改造",
+      "projectName": "君悦广场",
+      "projectNum": "2015-2017",
+      "aplicationgDate": "2015-2017",
+      "address": "居住小区",
+      "projectStatue": "全部",
+      "role": "花城被",
+      "sewage": "2014",
+      "number": "运营管理",
+      "file": ""
+    }
+  ],
+  "appraises": [
+    {
+      "id":1,
+      "number":20136495501,
+      "add": "今山西路18号",
+      "des": "由于管道不通导致小区路面积水",
+      "depth": "20cm",
+      "area": "400M2",
+      "time": "2013-07-17 24:00",
+      "comTime": "2014-05-07 12:18",
+      "reson": "",
+      "deel": "临时增加水泵抽排",
+      "wuzi": "",
+      "content": "完善未贯通的管道",
+      "liable": "",
+      "reviewer":"",
+      "endTime": "2013-10-28"
+    }
+  ]
+}
